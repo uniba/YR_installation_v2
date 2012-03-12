@@ -2,8 +2,8 @@
 	"name" : "YR_installation_v2",
 	"version" : 1,
 	"creationdate" : -882291382,
-	"modificationdate" : -882280114,
-	"viewrect" : [ 20.0, 335.0, 300.0, 500.0 ],
+	"modificationdate" : -881223244,
+	"viewrect" : [ 1.0, 374.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -31,6 +31,31 @@
 
 			}
 ,
+			"scene_3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/otiashee/Documents/Max 6 Projects/YR_installation_v2/patchers/scene_3.maxpat",
+					"projectrelativepath" : "../YR_installation_v2/patchers/scene_3.maxpat"
+				}
+
+			}
+,
+			"scene_4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"yr.scene_1.groove.drone.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pyroelectric_sensor.dummy.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mixer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -39,6 +64,11 @@
 					"projectrelativepath" : "../YR_installation_v2/patchers/mixer.maxpat"
 				}
 
+			}
+,
+			"switcher.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"yr.grain~.maxpat" : 			{
@@ -50,26 +80,18 @@
 				}
 
 			}
-,
-			"yr.scene_1.groove.drone.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/otiashee/Documents/Max 6 Projects/YR_installation_v2/patchers/yr.scene_1.groove.drone.maxpat",
-					"projectrelativepath" : "../YR_installation_v2/patchers/yr.scene_1.groove.drone.maxpat"
-				}
 
-			}
+		}
 ,
-			"pyroelectric_sensor.dummy.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/otiashee/Documents/Max 6 Projects/YR_installation_v2/patchers/pyroelectric_sensor.dummy.maxpat",
-					"projectrelativepath" : "../YR_installation_v2/patchers/pyroelectric_sensor.dummy.maxpat"
-				}
+		"media" : 		{
 
-			}
+		}
+,
+		"code" : 		{
+
+		}
+,
+		"data" : 		{
 
 		}
 ,
