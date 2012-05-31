@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 197.0, 111.0, 1223.0, 758.0 ],
+		"rect" : [ 319.0, 242.0, 1223.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -177,14 +177,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 255.862503, 508.0, 50.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 69.5, 50.0, 80.0 ],
+					"presentation_rect" : [ 123.0, 316.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "pan",
-							"parameter_longname" : "live.dial",
 							"parameter_unitstyle" : 6,
 							"parameter_initial" : [ 64 ],
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_shortname" : "pan",
+							"parameter_longname" : "live.dial"
 						}
 
 					}
@@ -528,7 +528,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.087524, 241.0, 76.225006, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.450012, 50.5, 63.225006, 18.0 ],
+					"presentation_rect" : [ 192.450012, 236.5, 63.225006, 18.0 ],
 					"rounded" : 0.0,
 					"text" : "stop",
 					"texton" : "analyze",
@@ -864,13 +864,13 @@
 					"presentation_rect" : [ 69.0, 260.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~",
 							"parameter_unitstyle" : 4,
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_type" : 0
+							"parameter_type" : 0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
